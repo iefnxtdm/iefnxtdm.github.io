@@ -103,7 +103,7 @@ footer{
 .author .avatar{
   width:120px; height:120px;
   border-radius:50%; object-fit:cover;
-  border:1px solid var(--border);
+  border:none; 
   display:block; margin:0 auto .75rem;
 }
 .author h1{
