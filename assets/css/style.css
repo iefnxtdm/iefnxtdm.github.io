@@ -90,3 +90,15 @@ footer{
   color:var(--muted); border-top:1px solid var(--border);
   margin-top:2rem; padding:1rem; text-align:center
 }
+.author .meta i{
+  width: 20px;
+  color: var(--muted);
+  margin-right: 6px;
+}
+.author .meta a{
+  color: var(--accent);
+  text-decoration: none;
+}
+.author .meta a:hover{
+  text-decoration: underline;
+}
