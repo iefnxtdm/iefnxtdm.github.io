@@ -48,10 +48,11 @@ h1{ font-size:1.6rem } h2{ font-size:1.25rem } h3{ font-size:1.1rem }
 /* Content cards */
 .card{
   background:var(--surface);
-  border:1px solid var(--border);
+  border:none;                 /* ⬅ removed border */
   border-radius:10px;
   padding:1rem; margin:1rem 0;
   word-wrap:break-word; overflow-wrap:anywhere;
+  box-shadow:none;             /* make sure no shadow outline appears */
 }
 .grid{ display:grid; gap:1rem }
 .grid-2{ grid-template-columns:repeat(2,minmax(0,1fr)) }
