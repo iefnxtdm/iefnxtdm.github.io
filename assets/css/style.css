@@ -102,3 +102,49 @@ footer{
 .author .meta a:hover{
   text-decoration: underline;
 }
+/* ====== Two-column layout with sticky author sidebar ====== */
+.layout {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 1.25rem;
+  display: grid;
+  grid-template-columns: 300px 1fr;   /* left sidebar, right content */
+  gap: 2rem;
+}
+
+/* left column = sidebar */
+.sidebar {
+  position: sticky;
+  top: 72px;               /* distance from top (below the nav) */
+  align-self: start;       /* don't stretch */
+  height: fit-content;     /* size to content */
+}
+
+/* author card inside the sidebar */
+.author {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 1rem;
+}
+.author .avatar {
+  width: 120px; height: 120px;
+  border-radius: 50%; object-fit: cover;
+  border: 1px solid var(--border);
+  display: block; margin: 0 auto .75rem;
+}
+.author h1 { text-align:center; margin:.35rem 0 .2rem; }
+.author .role { text-align:center; color: var(--muted); margin:0 0 .6rem; }
+.author .line { display:flex; gap:.5rem; align-items:center; color: var(--muted); margin:.35rem 0; }
+.author .line i { width: 18px; text-align:center; color: var(--muted); }
+.author .line a { color: var(--accent); text-decoration: none; }
+.author .line a:hover { text-decoration: underline; }
+
+/* right column = main content */
+.main > .card { margin-bottom: 1.25rem; }
+
+/* mobile: stack columns */
+@media (max-width: 900px) {
+  .layout { grid-template-columns: 1fr; }
+  .sidebar { position: static; }
+}
