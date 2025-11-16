@@ -73,7 +73,7 @@ h3 { font-size: 1.1rem }
 
 /* Content cards */
 .card {
-  max-width: 1200px;
+  max-width: 1400px;
   background: var(--surface);
   border: none;
   border-radius: 10px;
