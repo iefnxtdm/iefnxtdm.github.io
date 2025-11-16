@@ -31,12 +31,12 @@ body {
   border: none;
 }
 .nav .inner {
-  max-width: 1100px;
+  max-width: 1400px;
   margin: 0 auto;
   padding: .85rem 1rem;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 .brand {
   font-weight: 700;
@@ -128,7 +128,7 @@ footer {
 
 /* Two-column layout with sticky author sidebar */
 .layout {
-  max-width: 1150px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 1.25rem;
   display: grid;
