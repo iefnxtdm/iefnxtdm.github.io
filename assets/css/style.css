@@ -31,7 +31,7 @@ body {
   border: none;
 }
 .nav .inner {
-  max-width: 1400px;
+  max-width: 1300px;
   margin: 0 auto;
   padding: .85rem 1rem;
   display: flex;
@@ -73,7 +73,7 @@ h3 { font-size: 1.1rem }
 
 /* Content cards */
 .card {
-  max-width: 1400px;
+  max-width: 1300px;
   background: var(--surface);
   border: none;
   border-radius: 10px;
