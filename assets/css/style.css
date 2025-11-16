@@ -130,7 +130,7 @@ footer {
 
 /* Two-column layout with sticky author sidebar */
 .layout {
-  max-width: 1400px;
+  max-width: 1300px;
   margin: 0 auto;
   padding: 1.25rem;
   display: grid;
