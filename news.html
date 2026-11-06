@@ -3,83 +3,67 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Zhiying Xiao, Ph.D. — Home</title>
-  <meta name="description" content="Dynamic building envelopes, thermal switches, PCM, and ML for thermal systems.">
+  <title data-i18n="meta.newsTitle">Zhiying Xiao, Ph.D. — News</title>
+  <meta name="description" content="News and updates from Zhiying Xiao on low-carbon buildings, renewable energy, and building thermal research.">
   <link rel="stylesheet" href="assets/css/style.css">
-  <!-- Fonts (serif headings like Minimal Mistakes) -->
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700;800&display=swap" rel="stylesheet">
-  <!-- Icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <script src="assets/js/i18n.js" defer></script>
 </head>
 <body>
-
-  <!-- Top nav -->
   <nav class="nav">
     <div class="inner">
       <div class="brand">Zhiying Xiao, Ph.D.</div>
       <div class="links">
-        <a href="index.html">Home</a>
-        <a href="news.html">News</a>
+        <a href="index.html" data-i18n="nav.home">Home</a>
+        <a href="news.html" data-i18n="nav.news">News</a>
         <!--
         <a href="research.html">Research</a>
         <a href="publications.html">Publications</a>
         <a href="about.html">About</a>
-               
         <a href="files/Zhiying_Xiao_CV.pdf">CV</a>
         -->
+        <div class="language-switch" role="group" aria-label="Language / 语言">
+          <button type="button" data-lang="zh" aria-pressed="false">中文</button>
+          <span aria-hidden="true">|</span>
+          <button type="button" data-lang="en" class="is-active" aria-pressed="true">EN</button>
+        </div>
       </div>
     </div>
   </nav>
 
-  <!-- Two-column layout -->
   <div class="layout">
-    <!-- LEFT: fixed/sticky sidebar -->
     <aside class="sidebar">
       <section class="author">
         <img class="avatar" src="images/profile.jpg" alt="Profile photo" onerror="this.style.display='none'">
         <h1>Zhiying Xiao (肖志颖)</h1>
-        <p class="role">Postdoctoral Researcher at National Laboratory of the Rockies(NLR)</p>
-
-        <p class="line"><i class="fa-solid fa-location-dot" aria-hidden="true"></i> Golden, CO</p>
-        <p class="line"><i class="fa-solid fa-building-columns"></i> NREL</p>
-        <p class="line"><i class="fa-solid fa-envelope"></i>
-          <!-- Choose one email; this example uses NREL -->
-          <a href="mailto:Zhiying.Xiao@nlr.gov">Zhiying.Xiao@nlr.gov</a></p>
-        <p class="line"><i class="fa-brands fa-google"></i>
-          <a href="https://scholar.google.com/citations?user=nIl3FrUAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a></p>
-        <p class="line"><i class="fa-brands fa-linkedin"></i>
-          <a href="https://www.linkedin.com/in/zyx-6b3796112" target="_blank" rel="noopener">LinkedIn</a></p>
-         <p class="line"><i class="fa-brands fa-orcid"></i>
-            <a href="https://orcid.org/0000-0003-1920-9974" target="_blank" rel="noopener noreferrer">ORCID</a></p>
-
+        <p class="role" data-i18n="sidebar.role">Director of R&amp;D Center, China Overseas Grand Oceans LowCarbon Technology Co., Ltd.</p>
+        <p class="line"><i class="fa-solid fa-location-dot" aria-hidden="true"></i><span data-i18n="sidebar.location">Shenzhen, China</span></p>
+        <p class="line"><i class="fa-solid fa-building-columns" aria-hidden="true"></i><span data-i18n="sidebar.org">COGO LowCarbon Technology</span></p>
+        <p class="line"><i class="fa-solid fa-envelope" aria-hidden="true"></i><a href="mailto:hebeying0711@gmail.com">hebeying0711@gmail.com</a></p>
+        <p class="line"><i class="fa-brands fa-google" aria-hidden="true"></i><a href="https://scholar.google.com/citations?user=nIl3FrUAAAAJ&amp;hl=en" target="_blank" rel="noopener">Google Scholar</a></p>
+        <p class="line"><i class="fa-brands fa-linkedin" aria-hidden="true"></i><a href="https://www.linkedin.com/in/zyx-6b3796112" target="_blank" rel="noopener">LinkedIn</a></p>
+        <p class="line"><i class="fa-brands fa-orcid" aria-hidden="true"></i><a href="https://orcid.org/0000-0003-1920-9974" target="_blank" rel="noopener noreferrer">ORCID</a></p>
         <p style="text-align:left; margin-top:.01rem;">
-          <a class="btn" href="files/CV-academia zy 2025.pdf"><i class="fa-regular fa-file-pdf"></i> Download CV</a>
+          <a class="btn" href="files/CV-academia zy 2025.pdf"><i class="fa-regular fa-file-pdf" aria-hidden="true"></i> <span data-i18n="sidebar.download">Download CV</span></a>
         </p>
       </section>
     </aside>
 
-    <!-- RIGHT: scrollable main content -->
     <main class="main">
-      <!-- About me-->
       <section class="card">
-        <h2>News Release: Energy Department Renames NREL 'National Laboratory of the Rockies'</h2>
-    <p>
-      Dec. 1, 2025 <br>
-The U.S. Department of Energy today renamed the National Renewable Energy Laboratory (NREL) the National Laboratory of the Rockies. The renaming is effective immediately and will be reflected in all public communications and official correspondence.
-“The energy crisis we face today is unlike the crisis that gave rise to NREL,” said Assistant Secretary of Energy (EERE) Audrey Robertson. “We are no longer picking and choosing energy sources. Our highest priority is to invest in the scientific capabilities that will restore American manufacturing, drive down costs, and help this country meet its soaring energy demand. The National Laboratory of the Rockies will play a vital role in those efforts.” <br>
-“For decades, this laboratory and its scientific capabilities have pushed the boundaries of what's possible and delivered impact to the nation,” said Jud Virden, laboratory director of the National Laboratory of the Rockies. “This new name embraces a broader applied energy mission entrusted to us by the Department of Energy to deliver a more affordable and secure energy future for all.”<br>
-Founded in response to the 1973 oil crisis, NREL spearheaded the development and integration of a broad array of technologies for every facet of the energy system, from generation to distribution to end use. The new name reflects the Trump administration's broader vision for the lab's applied energy research, which historically emphasized alternative and renewable sources of generation, and honors the natural splendor of the lab's surroundings in Golden, Colorado.<br>
-    </p>
-     
+        <h2 data-i18n="news.joinTitle">Joined COGO LowCarbon Technology as Director of the R&amp;D Center</h2>
+        <p data-i18n="news.joinBody"><strong>Jun 2026</strong><br>I joined CHINA OVERSEAS GRAND OCEANS LOWCARBON TECHNOLOGY CO., LTD. (中宏低碳建筑科技有限公司) in Qianhai, Shenzhen, as Director of the R&amp;D Center. I will lead research and development in building energy saving and carbon reduction, renewable energy (photovoltaics and energy storage), and AI-integrated building energy management. I look forward to collaborating with academic and industry partners on innovative low-carbon building technologies.</p>
+      </section>
+
+      <section class="card">
+        <h2 data-i18n="news.nrelTitle">News Release: Energy Department Renames NREL 'National Laboratory of the Rockies'</h2>
+        <p data-i18n="news.nrelBody"><strong>Dec. 1, 2025</strong><br>The U.S. Department of Energy today renamed the National Renewable Energy Laboratory (NREL) the National Laboratory of the Rockies. The renaming is effective immediately and will be reflected in all public communications and official correspondence.<br><br>“The energy crisis we face today is unlike the crisis that gave rise to NREL,” said Assistant Secretary of Energy (EERE) Audrey Robertson. “We are no longer picking and choosing energy sources. Our highest priority is to invest in the scientific capabilities that will restore American manufacturing, drive down costs, and help this country meet its soaring energy demand. The National Laboratory of the Rockies will play a vital role in those efforts.”<br><br>“For decades, this laboratory and its scientific capabilities have pushed the boundaries of what's possible and delivered impact to the nation,” said Jud Virden, laboratory director of the National Laboratory of the Rockies. “This new name embraces a broader applied energy mission entrusted to us by the Department of Energy to deliver a more affordable and secure energy future for all.”<br><br>Founded in response to the 1973 oil crisis, NREL spearheaded the development and integration of a broad array of technologies for every facet of the energy system, from generation to distribution to end use. The new name reflects the Trump administration's broader vision for the lab's applied energy research, which historically emphasized alternative and renewable sources of generation, and honors the natural splendor of the lab's surroundings in Golden, Colorado.</p>
+      </section>
     </main>
   </div>
 
-
-
-<footer>    © 2025 Zhiying Xiao · 
-  <span class="small">NLR · Building Technologies & Science</span>
-
-</footer>
+  <footer>© 2026 Zhiying Xiao · <span class="small" data-i18n="footer.org">COGO LowCarbon Technology · R&amp;D Center</span></footer>
 </body>
 </html>

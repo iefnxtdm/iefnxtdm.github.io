@@ -213,3 +213,69 @@ footer {
     position: static;
   }
 }
+
+/* Language switch and structured experience metadata */
+.links {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.language-switch {
+  display: inline-flex;
+  align-items: center;
+  gap: .35rem;
+  margin-left: 1rem;
+  padding: .2rem .45rem;
+  color: var(--muted);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: #f8fafc;
+  font-size: .85rem;
+  line-height: 1.5;
+}
+.language-switch button {
+  appearance: none;
+  border: 0;
+  border-radius: 4px;
+  padding: .15rem .25rem;
+  background: transparent;
+  color: var(--muted);
+  font: inherit;
+  cursor: pointer;
+}
+.language-switch button:hover {
+  color: var(--accent);
+}
+.language-switch button.is-active {
+  background: #eaf1ff;
+  color: var(--accent);
+  font-weight: 700;
+}
+.language-switch button:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+.experience-meta {
+  margin-top: .15rem;
+  color: var(--muted);
+}
+.experience-meta a {
+  text-decoration: none;
+}
+@media (max-width: 640px) {
+  .nav .inner {
+    justify-content: space-between;
+    gap: .5rem;
+  }
+  .brand {
+    font-size: .95rem;
+  }
+  .links {
+    justify-content: flex-end;
+    gap: .15rem;
+  }
+  .links a,
+  .language-switch {
+    margin-left: .35rem;
+  }
+}

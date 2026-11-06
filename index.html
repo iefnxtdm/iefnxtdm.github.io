@@ -3,250 +3,195 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Zhiying Xiao, Ph.D. — Home</title>
-  <meta name="description" content="Dynamic building envelopes, thermal switches, PCM, and ML for thermal systems.">
+  <title data-i18n="meta.title">Zhiying Xiao, Ph.D. — Home</title>
+  <meta name="description" content="Building energy saving, carbon reduction, renewable energy, AI-integrated energy management, and advanced building thermal technologies.">
   <link rel="stylesheet" href="assets/css/style.css">
-  <!-- Fonts (serif headings like Minimal Mistakes) -->
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700;800&display=swap" rel="stylesheet">
-  <!-- Icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <script src="assets/js/i18n.js" defer></script>
 </head>
 <body>
-
-  <!-- Top nav -->
   <nav class="nav">
     <div class="inner">
       <div class="brand">Zhiying Xiao, Ph.D.</div>
       <div class="links">
-        <a href="index.html">Home</a>
-        <a href="news.html">News</a>
+        <a href="index.html" data-i18n="nav.home">Home</a>
+        <a href="news.html" data-i18n="nav.news">News</a>
         <!--
         <a href="research.html">Research</a>
         <a href="publications.html">Publications</a>
         <a href="about.html">About</a>
-               
         <a href="files/Zhiying_Xiao_CV.pdf">CV</a>
         -->
+        <div class="language-switch" role="group" aria-label="Language / 语言">
+          <button type="button" data-lang="zh" aria-pressed="false">中文</button>
+          <span aria-hidden="true">|</span>
+          <button type="button" data-lang="en" class="is-active" aria-pressed="true">EN</button>
+        </div>
       </div>
     </div>
   </nav>
 
-  <!-- Two-column layout -->
   <div class="layout">
-    <!-- LEFT: fixed/sticky sidebar -->
     <aside class="sidebar">
       <section class="author">
         <img class="avatar" src="images/profile.jpg" alt="Profile photo" onerror="this.style.display='none'">
         <h1>Zhiying Xiao (肖志颖)</h1>
-        <p class="role">Postdoctoral Researcher at National Laboratory of the Rockies(NLR)</p>
-
-        <p class="line"><i class="fa-solid fa-location-dot" aria-hidden="true"></i> Golden, CO</p>
-        <p class="line"><i class="fa-solid fa-building-columns"></i> NREL</p>
-        <p class="line"><i class="fa-solid fa-envelope"></i>
-          <!-- Choose one email; this example uses NREL -->
-          <a href="mailto:Zhiying.Xiao@nlr.gov">Zhiying.Xiao@nlr.gov</a></p>
-        <p class="line"><i class="fa-brands fa-google"></i>
-          <a href="https://scholar.google.com/citations?user=nIl3FrUAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a></p>
-        <p class="line"><i class="fa-brands fa-linkedin"></i>
-          <a href="https://www.linkedin.com/in/zyx-6b3796112" target="_blank" rel="noopener">LinkedIn</a></p>
-         <p class="line"><i class="fa-brands fa-orcid"></i>
-            <a href="https://orcid.org/0000-0003-1920-9974" target="_blank" rel="noopener noreferrer">ORCID</a></p>
-
+        <p class="role" data-i18n="sidebar.role">Director of R&amp;D Center, China Overseas Grand Oceans LowCarbon Technology Co., Ltd.</p>
+        <p class="line"><i class="fa-solid fa-location-dot" aria-hidden="true"></i><span data-i18n="sidebar.location">Shenzhen, China</span></p>
+        <p class="line"><i class="fa-solid fa-building-columns" aria-hidden="true"></i><span data-i18n="sidebar.org">COGO LowCarbon Technology</span></p>
+        <p class="line"><i class="fa-solid fa-envelope" aria-hidden="true"></i><a href="mailto:hebeying0711@gmail.com">hebeying0711@gmail.com</a></p>
+        <p class="line"><i class="fa-brands fa-google" aria-hidden="true"></i><a href="https://scholar.google.com/citations?user=nIl3FrUAAAAJ&amp;hl=en" target="_blank" rel="noopener">Google Scholar</a></p>
+        <p class="line"><i class="fa-brands fa-linkedin" aria-hidden="true"></i><a href="https://www.linkedin.com/in/zyx-6b3796112" target="_blank" rel="noopener">LinkedIn</a></p>
+        <p class="line"><i class="fa-brands fa-orcid" aria-hidden="true"></i><a href="https://orcid.org/0000-0003-1920-9974" target="_blank" rel="noopener noreferrer">ORCID</a></p>
         <p style="text-align:left; margin-top:.01rem;">
-          <a class="btn" href="files/CV-academia zy 2025.pdf"><i class="fa-regular fa-file-pdf"></i> Download CV</a>
+          <a class="btn" href="files/CV-academia zy 2025.pdf"><i class="fa-regular fa-file-pdf" aria-hidden="true"></i> <span data-i18n="sidebar.download">Download CV</span></a>
         </p>
       </section>
     </aside>
 
-    <!-- RIGHT: scrollable main content -->
     <main class="main">
-      <!-- About me-->
       <section class="card">
-        <h2>About Me</h2>
-    <p>
-      I am a Postdoctoral Researcher - Mechanical Engineering at National Laboratory of the Rockies(NLR), formerly known as National Renewable Energy Laboratory (NREL), specializing in advanced building thermal technologies. I completed a PhD in Civil Engineering at Worcester Polytechnic Institute.
-      My research focuses on improving building energy efficiency through innovative materials, systems, and data-driven modeling. 
-      I also conducted research on the structural analysis of offshore wind turbine foundations during my M.S. studies at Hunan University.
-      <strong>I am actively seeking academic collaborations on research proposals and publications.</strong>
-    </p>
-    <p>My research interests include:</p>
-    <ul>
-      <li><strong>Dynamic Building Envelopes:</strong> passive/active thermal switches, adaptive thermal control</li>
-      <li><strong>Thermal Energy Storage (TES):</strong> PCMs, solid-solid PCMs, sorbent thermal batteries.</li>
-      <li><strong>Radiative Cooling:</strong> daytime radiative cooling, thermo-optical and switchable coatings.</li>
-      <li><strong>Building Energy Modeling:</strong> EnergyPlus, building-scale simulation, techno-economic analysis.</li>
-      <li><strong>Advanced Building Insulation:</strong> cement-based insulation foams, porous thermal composites.</li>
-      <li><strong>AI-Driven Building Thermal Management:</strong> ML-based energy prediction, surrogate modeling, data-driven analysis.</li>
-    </ul>
-
-      </section>
-      <!-- Research #1 -->
-      <section class="card">
-        <h2>Highlight #1: Thermal Switches based Dynamic Building Envelopes </h2>
-        <p>
-          We developed a passive thermal switch embedded in building insulation that automatically changes its heat-flow path based on ambient temperature.
-          This technology enhances the effectiveness of PCMs in thermal energy storage, helping to reduce building heating and cooling loads.
-        </p>
+        <h2 data-i18n="about.title">About Me</h2>
+        <p data-i18n="about.body">I am Director of the R&amp;D Center at <strong>CHINA OVERSEAS GRAND OCEANS LOWCARBON TECHNOLOGY CO., LTD.</strong> (COGO LowCarbon Technology) in Qianhai, Shenzhen, where I joined in June 2026. I lead research and development in building energy saving and carbon reduction, renewable energy (photovoltaics and energy storage), and AI-integrated building energy management.<br><br>From February 2024 to May 2026, I was a Postdoctoral Researcher in Mechanical Engineering at the National Laboratory of the Rockies (NLR), formerly the National Renewable Energy Laboratory (NREL), where I worked on advanced building thermal technologies. I earned my Ph.D. in Civil Engineering from Worcester Polytechnic Institute (WPI). During my M.S. studies at Hunan University, I conducted research on the structural analysis of offshore wind turbine foundations.<br><br><strong>I welcome academic collaboration and knowledge exchange on building energy, low-carbon technologies, and related research initiatives.</strong></p>
+        <p data-i18n="about.interestsTitle">My research interests include:</p>
         <ul>
-          <li>Passive, insertable thermal switches are developed and experimentally characterized.</li>
-          <li>One switch per 100 in<sup>2</sup> of insulation provides a thermal conductivity switching ratio of 5.7.</li>
-          <li>Switches enhance utilization of PCM-thermal storage and improve indoor thermal comfort.</li>
+          <li data-i18n="about.interest.current"><strong>Building Energy, Carbon &amp; AI:</strong> Building energy saving &amp; carbon reduction, renewable energy (PV &amp; storage), and AI-integrated building energy management</li>
+          <li data-i18n="about.interest.envelopes"><strong>Dynamic Building Envelopes:</strong> passive/active thermal switches, adaptive thermal control</li>
+          <li data-i18n="about.interest.tes"><strong>Thermal Energy Storage (TES):</strong> PCMs, solid-solid PCMs, sorbent thermal batteries.</li>
+          <li data-i18n="about.interest.cooling"><strong>Radiative Cooling:</strong> daytime radiative cooling, thermo-optical and switchable coatings.</li>
+          <li data-i18n="about.interest.modeling"><strong>Building Energy Modeling:</strong> EnergyPlus, building-scale simulation, techno-economic analysis.</li>
+          <li data-i18n="about.interest.insulation"><strong>Advanced Building Insulation:</strong> cement-based insulation foams, porous thermal composites.</li>
+          <li data-i18n="about.interest.ai"><strong>AI-Driven Building Thermal Management:</strong> ML-based energy prediction, surrogate modeling, data-driven analysis.</li>
         </ul>
+      </section>
 
-        <!-- Two images in a row -->
+      <section class="card">
+        <h2 data-i18n="highlight1.title">Highlight #1: Thermal Switches based Dynamic Building Envelopes</h2>
+        <p data-i18n="highlight1.intro">We developed a passive thermal switch embedded in building insulation that automatically changes its heat-flow path based on ambient temperature. This technology enhances the effectiveness of PCMs in thermal energy storage, helping to reduce building heating and cooling loads.</p>
+        <ul>
+          <li data-i18n="highlight1.point1">Passive, insertable thermal switches are developed and experimentally characterized.</li>
+          <li data-i18n="highlight1.point2">One switch per 100 in<sup>2</sup> of insulation provides a thermal conductivity switching ratio of 5.7.</li>
+          <li data-i18n="highlight1.point3">Switches enhance utilization of PCM-thermal storage and improve indoor thermal comfort.</li>
+        </ul>
         <div class="grid grid-2">
-          <div class="card" style="padding:0;">
-            <img src="images/switch1.jpg" alt="Thermal switch" loading="lazy" style="width:100%;display:block;border-radius:8px;">
-          </div>
-          <div class="card" style="padding:0;">
-            <img src="images/switch2.JPG" alt="switch2" loading="lazy" style="width:100%;display:block;border-radius:8px;">
-          </div>
+          <div class="card" style="padding:0;"><img src="images/switch1.jpg" alt="Thermal switch" loading="lazy" style="width:100%;display:block;border-radius:8px;"></div>
+          <div class="card" style="padding:0;"><img src="images/switch2.JPG" alt="Thermal switch" loading="lazy" style="width:100%;display:block;border-radius:8px;"></div>
         </div>
       </section>
 
-      <!-- Research #2 -->
       <section class="card">
-        <h2>Highlight #2: Thermo-optically responsive SS-PCM coatings</h2>
-        <p>
-          Our thermo-optical solid–solid phase change material (SS-PCM) coatings absorb excess heat when the building is warm and release it when cooler, 
-          moderating indoor temperature swings and lowering HVAC energy demand.
-      We applied a bioinspired surface-optimization approach and machine-learning-based 
-          design to develop porous SS-PCM coatings with enhanced optical and thermal performance for adaptive building envelopes.
-        </p>
+        <h2 data-i18n="highlight2.title">Highlight #2: Thermo-optically responsive SS-PCM coatings</h2>
+        <p data-i18n="highlight2.intro">Our thermo-optical solid–solid phase change material (SS-PCM) coatings absorb excess heat when the building is warm and release it when cooler, moderating indoor temperature swings and lowering HVAC energy demand. We applied a bioinspired surface-optimization approach and machine-learning-based design to develop porous SS-PCM coatings with enhanced optical and thermal performance for adaptive building envelopes.</p>
         <ul>
-          <li>Thermo-optical solid–solid PCM exhibits switchable cooling and solar heating effects in response to the ambient temperature.</li>
-          <li>The SS-PCM can achieve radiative cooling effect when integrated with Polydimethylsiloxane (PDMS) and Silver(Ag).</li>
+          <li data-i18n="highlight2.point1">Thermo-optical solid–solid PCM exhibits switchable cooling and solar heating effects in response to the ambient temperature.</li>
+          <li data-i18n="highlight2.point2">The SS-PCM can achieve radiative cooling effect when integrated with Polydimethylsiloxane (PDMS) and Silver (Ag).</li>
         </ul>
-
-        <!-- Two images in a row -->
         <div class="grid grid-2">
-          <div class="card" style="padding:0;">
-            <img src="images/pcm1.jpg" alt="SS-PCM sample" loading="lazy" style="width:100%;display:block;border-radius:8px;">
-          </div>
-          <div class="card" style="padding:0;">
-            <img src="images/pcm2.jpg" alt="SS-PCM schematic" loading="lazy" style="width:100%;display:block;border-radius:8px;">
-          </div>
+          <div class="card" style="padding:0;"><img src="images/pcm1.jpg" alt="SS-PCM sample" loading="lazy" style="width:100%;display:block;border-radius:8px;"></div>
+          <div class="card" style="padding:0;"><img src="images/pcm2.jpg" alt="SS-PCM schematic" loading="lazy" style="width:100%;display:block;border-radius:8px;"></div>
         </div>
       </section>
-      <!-- Research #3 -->
+
       <section class="card">
-        <h2>Highlight #3: Active thermal switch and AI+ building thermal management.</h2>
-          <p>A journal paper is going to be submitted soon and a provisional US patent has been filed.</p> 
+        <h2 data-i18n="highlight3.title">Highlight #3: Active thermal switch and AI+ building thermal management.</h2>
+        <p data-i18n="highlight3.body">A journal paper is going to be submitted soon and a provisional US patent has been filed.</p>
       </section>
-      <!-- Research #4 -->
+
       <section class="card">
-        <h2>Highlight #4: Thermal storage embedded heat pump optimization</h2>
-          <p>(Ongoing)</p> 
+        <h2 data-i18n="highlight4.title">Highlight #4: Thermal storage embedded heat pump optimization</h2>
+        <p data-i18n="highlight4.body">(Ongoing)</p>
       </section>
-      <!-- Education-->
+
       <section class="card">
-        <h2>Education and Work Experience</h2>
-        <ul>
-            <li>Postdoctoral Researcher–Mechanical Engineering, NREL, Feb 2024 ‑ present</li>
-                Mentors: <a href="https://research-hub.nrel.gov/en/persons/ravi-kishore/" target="_blank" rel="noopener noreferrer" style="text-decoration: none;"> Ravi Kishore  </a>&nbsp;
-                       <a href="https://research-hub.nrel.gov/en/persons/chuck-booten/" target="_blank" rel="noopener noreferrer" style="text-decoration: none;"> Chuck Booten </a> <br>
-                Manager: <a href="https://research-hub.nrel.gov/en/persons/judith-vidal/" target="_blank" rel="noopener noreferrer" style="text-decoration: none;"> Judith Vidal </a>
-            <li>PhD in Civil Engineering, Worcester Polytechnic Institute, Aug 2019 ‑ Dec 2023</li>
-                Advisors: <a href="https://www.wpi.edu/people/faculty/taomj" target="_blank" rel="noopener noreferrer" style="text-decoration: none;"> Mingjiang Tao  </a>&nbsp;
-                          <a href="https://www.wpi.edu/people/faculty/svandessel/" target="_blank" rel="noopener noreferrer" style="text-decoration: none;"> Steven Van Dessel  </a> <br>
-                Committee members: <a href="https://www.clarku.edu/faculty/profiles/sergio-granados-focil/" target="_blank" rel="noopener noreferrer" style="text-decoration: none;"> Sergio Granados-Focil </a>&nbsp;
-                                    <a href="https://www.wpi.edu/people/faculty/omangoubi" target="_blank" rel="noopener noreferrer" style="text-decoration: none;"> Oren Mangoubi </a>
-            <li>Structural Engineer, POWERCHINA Kunming Engineering Corporation Limited, Aug 2016 ‑ Aug 2019</li>
-            <li>Master in Structural Engineering, Hunan University, Sep 2013 ‑ Jun 2016</li>
-                 Advisor: <a href="https://ngcee.hnu.edu.cn/szdw/dsdw/xnbssds/znjz/dl.htm" target="_blank" rel="noopener noreferrer" style="text-decoration: none;"> Lu Deng (邓露) </a>
-            <li>Bachelor in Civil Engineering, Hunan University, Sep 2009 ‑ Jun 2013</li>
+        <h2 data-i18n="experience.title">Education and Work Experience</h2>
+        <ul class="experience-list">
+          <li data-i18n="experience.current">Director of R&amp;D Center, China Overseas Grand Oceans LowCarbon Technology Co., Ltd. (中宏低碳), Jun 2026 – present</li>
+          <li>
+            <span data-i18n="experience.nlr">Postdoctoral Researcher–Mechanical Engineering, National Laboratory of the Rockies (NLR, formerly NREL), Feb 2024 – May 2026</span>
+            <div class="experience-meta"><span data-i18n="experience.mentors">Mentors:</span>
+              <a href="https://research-hub.nrel.gov/en/persons/ravi-kishore/" target="_blank" rel="noopener noreferrer">Ravi Kishore</a>&nbsp;
+              <a href="https://research-hub.nrel.gov/en/persons/chuck-booten/" target="_blank" rel="noopener noreferrer">Chuck Booten</a><br>
+              <span data-i18n="experience.manager">Manager:</span>
+              <a href="https://research-hub.nrel.gov/en/persons/judith-vidal/" target="_blank" rel="noopener noreferrer">Judith Vidal</a>
+            </div>
+          </li>
+          <li>
+            <span data-i18n="experience.phd">PhD in Civil Engineering, Worcester Polytechnic Institute, Aug 2019 – Dec 2023</span>
+            <div class="experience-meta"><span data-i18n="experience.advisors">Advisors:</span>
+              <a href="https://www.wpi.edu/people/faculty/taomj" target="_blank" rel="noopener noreferrer">Mingjiang Tao</a>&nbsp;
+              <a href="https://www.wpi.edu/people/faculty/svandessel/" target="_blank" rel="noopener noreferrer">Steven Van Dessel</a><br>
+              <span data-i18n="experience.committee">Committee members:</span>
+              <a href="https://www.clarku.edu/faculty/profiles/sergio-granados-focil/" target="_blank" rel="noopener noreferrer">Sergio Granados-Focil</a>&nbsp;
+              <a href="https://www.wpi.edu/people/faculty/omangoubi" target="_blank" rel="noopener noreferrer">Oren Mangoubi</a>
+            </div>
+          </li>
+          <li data-i18n="experience.powerchina">Structural Engineer, POWERCHINA Kunming Engineering Corporation Limited, Aug 2016 – Aug 2019</li>
+          <li>
+            <span data-i18n="experience.master">Master in Structural Engineering, Hunan University, Sep 2013 – Jun 2016</span>
+            <div class="experience-meta"><span data-i18n="experience.advisor">Advisor:</span>
+              <a href="https://ngcee.hnu.edu.cn/szdw/dsdw/xnbssds/znjz/dl.htm" target="_blank" rel="noopener noreferrer">Lu Deng (邓露)</a>
+            </div>
+          </li>
+          <li data-i18n="experience.bachelor">Bachelor in Civil Engineering, Hunan University, Sep 2009 – Jun 2013</li>
         </ul>
-     </section>
-      <!-- Publication -->
+      </section>
+
       <section class="card">
-        <h2>Publications</h2>
-  <ol>
-    <li><strong>Zhiying Xiao</strong>, Sajith Wijesuriya, Ravi Kishore, et al. Development and energy savings analysis of active thermal switches with thermal storage for dynamic building envelopes in residential buildings.
-      <em>Cell Reports Sustainability</em>, 2026. <a href="https://doi.org/10.1016/j.crsus.2026.100817" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">link </a>  </li> 
-    <li><strong>Xiao, Zhiying</strong>, Kishore, Ravi Anant, Booten, Chuck. Demonstration and Characterization of Insertable Passive Thermal Switches for Dynamic Building Envelopes.
-      <em>Cell Reports Physical Science</em>, 2025. <a href="https://doi.org/10.1016/j.xcrp.2025.102668" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">link </a>&nbsp;
-    <a href="https://www.energy.gov/sites/default/files/2024-11/bto-peer-2024-346194-plug-and-play-thermal-switches-with-thermal-storage-kishore.pdf" target="_blank" rel="noopener noreferrer" style="text-decoration: none;"> presentation </a> </li> 
-    <li><strong>Zhiying Xiao</strong>, R. Bousselham, M. Tao, et al. Machine Learning-Optimized Porous Thermally Responsive SS-PCM with Switchable Transparency for Adaptive Building Envelope Coatings. 
-      <em>Energy and Buildings</em>, 2025. <a href="https://doi.org/10.1016/j.enbuild.2025.116593" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">link </a> </li>
-    <li><strong>Zhiying Xiao</strong>, Sajith Wijesuriya, Kishore, Ravi Anant, et al. Experimental Characterization and Potential Energy Savings Benefits of Insulated Cladding for US Residential Buildings. 
-      <em>Energy and Buildings</em>, 2025. <a href="https://doi.org/10.1016/j.enbuild.2025.116590" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">link </a> </li>
-    <li><strong>Zhiying Xiao</strong>, P. Mishra, A. Mahdavi Nejad, M. Tao, S. Granados-Focil, S. Van Dessel. Thermal Optimization of a Novel Thermo-Optically Responsive SS-PCM Coating for Building Enclosures. 
-      <em>Energy and Buildings</em>, 2021. <a href="https://doi.org/10.1016/j.enbuild.2021.111129" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">link </a> </li>
-    <li>R. Bousselham, <strong>Z. Xiao</strong>, M. Tao, et al. A Bioinspired Approach for Adaptive Solid-Solid Phase Change Material Coatings with Optimized Surface Features for Passive Thermal Regulation. 
-      <em>Solar Energy Materials and Solar Cells</em>, 2026. <a href="https://doi.org/10.1016/j.solmat.2025.114000" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">link </a> </li>
-    <li>Kishore, Ravi Anant, <strong>Xiao, Zhiying</strong>, Booten, Chuck, et al. Retrofittable Thermal Switches for Dynamic Building Envelopes Integrated with Thermal Energy Storage. 
-      <em>2024 ACEEE Summer Study on Energy Efficiency in Buildings</em>. <a href="https://www.osti.gov/biblio/2466159" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">link </a> </li>
-    <li>El Ouaragli J, <strong>Xiao, Zhiying</strong>, Tao M, Granados-Focil S, Van Dessel S. A Novel Passive Polymer-Sorbent Thermal Battery for Low-Temperature Energy Applications: A Numerical Feasibility Study. 
-      <em>Journal of Energy Storage</em>, 2022. <a href="https://doi.org/10.1016/j.est.2022.105971" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">link </a> </li>
-    <li>Zhong W, Deng L, <strong>Xiao Zhiying</strong>. Flow Past a Rectangular Cylinder Close to a Free Surface. <em>Ocean Engineering</em>, 2019. 
-      <a href="https://doi.org/10.1016/j.oceaneng.2019.106118" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">link </a> </li>
-    <li>Deng Lu, <strong>Xiao Zhiying</strong>, et al. Numerical Simulation of Dynamic Response for Offshore Wind Turbines Including Fluid-Structure Interaction. 
-      <em>Journal of Hunan University: Natural Science</em>, 2015. (In Chinese) <a href="files/9.pdf" target="_blank"rel="noopener noreferrer" style="text-decoration: none;"> pdf</a></li>
-    <li>Deng Lu, <strong>Xiao Zhiying</strong>, et al. Intact Stability Analysis of a Semi-Submersible Platform for Floating Offshore Wind Turbines. 
-      <em>Journal of Harbin Engineering University</em>, 2016. (In Chinese) <a href="files/10.pdf" target="_blank" rel="noopener noreferrer" style="text-decoration: none;"> pdf</a></li>
-    <li>Deng Lu, Wang Biao, <strong>Xiao Zhiying</strong>, et al. Conceptual Design and Performance Analysis of a Reinforced Concrete Floating Platform for Offshore Wind Turbine. 
-      <em>Journal of Huazhong University of Science and Technology (Natural Science Edition)</em>, 2016. (In Chinese) <a href="files/11.pdf" target="_blank" rel="noopener noreferrer" style="text-decoration: none;"> pdf</a></li>
-    <li>Deng Lu, Huang Mingxi, <strong>Xiao Zhiying</strong>, et al. Analysis on Frequency Response of Floating Wind Turbine Considering the Influence of Aerodynamic Damping. 
-      <em>Journal of Hunan University: Natural Science</em>, 2016. (In Chinese) <a href="files/12.pdf" target="_blank" rel="noopener noreferrer" style="text-decoration: none;"> pdf</a></li>
-    <li>Deng Lu, Wang Biao, <strong>Xiao Zhiying</strong>, et al. Review of Offshore Floating Wind Turbine Concepts. <em>Journal of Marine Engineering</em>, 2018. (In Chinese) <a href="files/13.pdf" target="_blank" rel="noopener noreferrer" style="text-decoration: none;"> pdf</a></li>
-    <li>Wang Biao, Bi Tao, <strong>Xiao Zhiying</strong>, et al. Summary of Foundation Design for Offshore Floating Wind Turbine. <em>Electric Power Survey and Design</em>, 2018. (In Chinese)  <a href="files/14.pdf" target="_blank" rel="noopener noreferrer" style="text-decoration: none;"> pdf</a></li>
-  </ol>
-     </section>
-      
-<section class="card">
-  <h2>Peer Review</h2>
-  <ul><b>Jounral</b>
-    <li>Applied Energy;</li>
-    <li>Energy and Buildings;</li>
-    <li>Engineering Applications of Artificial Intelligence;</li>
-    <li>Journal of Building Engineering;</li>
-    <li>Case Studies in Thermal Engineering;</li>
-    <li>Solar Energy;</li>
-    <li>Building Simulation;</li>
-    <li>International Journal of Green Energy;</li>
-    <li>Journal of Energy Storage;</li>
-    <li>The International Journal of Ventilation;</li>
-    <li>Advances in Mechanical Engineering;</li>
-    <li>Buildings; </li>
-    <li>Energies; </li>
-    <li> Sustainability;</li>
-    <li>Advances in Building Energy Research;</li>
-    <li>Journal of Engineering for Sustainable Buildings and Cities;</li>
-    <li>Journal of Physics: Energy</li>
-  </ul>
-  <ul><b>Conference</b>
-  <li>ASME Energy Sustainability Conference 2025; </li>
-  <li>Building Simulation Conference 2025</li>
-  </ul>
-  <ul>(Open to review more)</ul>
-</section>
+        <h2 data-i18n="publications.title">Publications</h2>
+        <ol>
+          <li><strong>Zhiying Xiao</strong>, Sajith Wijesuriya, Ravi Kishore, et al. Development and energy savings analysis of active thermal switches with thermal storage for dynamic building envelopes in residential buildings. <em>Cell Reports Sustainability</em>, 2026. <a href="https://doi.org/10.1016/j.crsus.2026.100817" target="_blank" rel="noopener noreferrer">link</a></li>
+          <li><strong>Xiao, Zhiying</strong>, Kishore, Ravi Anant, Booten, Chuck. Demonstration and Characterization of Insertable Passive Thermal Switches for Dynamic Building Envelopes. <em>Cell Reports Physical Science</em>, 2025. <a href="https://doi.org/10.1016/j.xcrp.2025.102668" target="_blank" rel="noopener noreferrer">link</a>&nbsp; <a href="https://www.energy.gov/sites/default/files/2024-11/bto-peer-2024-346194-plug-and-play-thermal-switches-with-thermal-storage-kishore.pdf" target="_blank" rel="noopener noreferrer">presentation</a></li>
+          <li><strong>Zhiying Xiao</strong>, R. Bousselham, M. Tao, et al. Machine Learning-Optimized Porous Thermally Responsive SS-PCM with Switchable Transparency for Adaptive Building Envelope Coatings. <em>Energy and Buildings</em>, 2025. <a href="https://doi.org/10.1016/j.enbuild.2025.116593" target="_blank" rel="noopener noreferrer">link</a></li>
+          <li><strong>Zhiying Xiao</strong>, Sajith Wijesuriya, Kishore, Ravi Anant, et al. Experimental Characterization and Potential Energy Savings Benefits of Insulated Cladding for US Residential Buildings. <em>Energy and Buildings</em>, 2025. <a href="https://doi.org/10.1016/j.enbuild.2025.116590" target="_blank" rel="noopener noreferrer">link</a></li>
+          <li><strong>Zhiying Xiao</strong>, P. Mishra, A. Mahdavi Nejad, M. Tao, S. Granados-Focil, S. Van Dessel. Thermal Optimization of a Novel Thermo-Optically Responsive SS-PCM Coating for Building Enclosures. <em>Energy and Buildings</em>, 2021. <a href="https://doi.org/10.1016/j.enbuild.2021.111129" target="_blank" rel="noopener noreferrer">link</a></li>
+          <li>R. Bousselham, <strong>Z. Xiao</strong>, M. Tao, et al. A Bioinspired Approach for Adaptive Solid-Solid Phase Change Material Coatings with Optimized Surface Features for Passive Thermal Regulation. <em>Solar Energy Materials and Solar Cells</em>, 2026. <a href="https://doi.org/10.1016/j.solmat.2025.114000" target="_blank" rel="noopener noreferrer">link</a></li>
+          <li>Kishore, Ravi Anant, <strong>Xiao, Zhiying</strong>, Booten, Chuck, et al. Retrofittable Thermal Switches for Dynamic Building Envelopes Integrated with Thermal Energy Storage. <em>2024 ACEEE Summer Study on Energy Efficiency in Buildings</em>. <a href="https://www.osti.gov/biblio/2466159" target="_blank" rel="noopener noreferrer">link</a></li>
+          <li>El Ouaragli J, <strong>Xiao, Zhiying</strong>, Tao M, Granados-Focil S, Van Dessel S. A Novel Passive Polymer-Sorbent Thermal Battery for Low-Temperature Energy Applications: A Numerical Feasibility Study. <em>Journal of Energy Storage</em>, 2022. <a href="https://doi.org/10.1016/j.est.2022.105971" target="_blank" rel="noopener noreferrer">link</a></li>
+          <li>Zhong W, Deng L, <strong>Xiao Zhiying</strong>. Flow Past a Rectangular Cylinder Close to a Free Surface. <em>Ocean Engineering</em>, 2019. <a href="https://doi.org/10.1016/j.oceaneng.2019.106118" target="_blank" rel="noopener noreferrer">link</a></li>
+          <li>Deng Lu, <strong>Xiao Zhiying</strong>, et al. Numerical Simulation of Dynamic Response for Offshore Wind Turbines Including Fluid-Structure Interaction. <em>Journal of Hunan University: Natural Science</em>, 2015. (In Chinese) <a href="files/9.pdf" target="_blank" rel="noopener noreferrer">pdf</a></li>
+          <li>Deng Lu, <strong>Xiao Zhiying</strong>, et al. Intact Stability Analysis of a Semi-Submersible Platform for Floating Offshore Wind Turbines. <em>Journal of Harbin Engineering University</em>, 2016. (In Chinese) <a href="files/10.pdf" target="_blank" rel="noopener noreferrer">pdf</a></li>
+          <li>Deng Lu, Wang Biao, <strong>Xiao Zhiying</strong>, et al. Conceptual Design and Performance Analysis of a Reinforced Concrete Floating Platform for Offshore Wind Turbine. <em>Journal of Huazhong University of Science and Technology (Natural Science Edition)</em>, 2016. (In Chinese) <a href="files/11.pdf" target="_blank" rel="noopener noreferrer">pdf</a></li>
+          <li>Deng Lu, Huang Mingxi, <strong>Xiao Zhiying</strong>, et al. Analysis on Frequency Response of Floating Wind Turbine Considering the Influence of Aerodynamic Damping. <em>Journal of Hunan University: Natural Science</em>, 2016. (In Chinese) <a href="files/12.pdf" target="_blank" rel="noopener noreferrer">pdf</a></li>
+          <li>Deng Lu, Wang Biao, <strong>Xiao Zhiying</strong>, et al. Review of Offshore Floating Wind Turbine Concepts. <em>Journal of Marine Engineering</em>, 2018. (In Chinese) <a href="files/13.pdf" target="_blank" rel="noopener noreferrer">pdf</a></li>
+          <li>Wang Biao, Bi Tao, <strong>Xiao Zhiying</strong>, et al. Summary of Foundation Design for Offshore Floating Wind Turbine. <em>Electric Power Survey and Design</em>, 2018. (In Chinese) <a href="files/14.pdf" target="_blank" rel="noopener noreferrer">pdf</a></li>
+        </ol>
+      </section>
 
+      <section class="card">
+        <h2 data-i18n="peer.title">Peer Review</h2>
+        <ul><strong data-i18n="peer.journal">Journal</strong>
+          <li>Applied Energy;</li><li>Energy and Buildings;</li><li>Engineering Applications of Artificial Intelligence;</li>
+          <li>Journal of Building Engineering;</li><li>Case Studies in Thermal Engineering;</li><li>Solar Energy;</li>
+          <li>Building Simulation;</li><li>International Journal of Green Energy;</li><li>Journal of Energy Storage;</li>
+          <li>The International Journal of Ventilation;</li><li>Advances in Mechanical Engineering;</li><li>Buildings;</li>
+          <li>Energies;</li><li>Sustainability;</li><li>Advances in Building Energy Research;</li>
+          <li>Journal of Engineering for Sustainable Buildings and Cities;</li><li>Journal of Physics: Energy</li>
+        </ul>
+        <ul><strong data-i18n="peer.conference">Conference</strong>
+          <li>ASME Energy Sustainability Conference 2025;</li><li>Building Simulation Conference 2025</li>
+        </ul>
+        <ul data-i18n="peer.more">(Open to review more)</ul>
+      </section>
 
-<section class="card">
-        <h2>Patent</h2>
-          <ul>
-            <li>(US) Thermal Diode and Thermal Switch Bi-Directional Heat Transfer in Building Envelopes, 2025 
-              <a href="https://patents.google.com/patent/US20240281010A1/en" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">link </a></li>
-            <li>(CN) Prefabricated Bay Window, 2019 <a href="files/p1.pdf" target="_blank" rel="noopener noreferrer" style="text-decoration: none;"> pdf</a></li>
-            <li>(CN) A kind of Bi-directional Sliding Seismic Isolation Devices, 2017 <a href="files/p2.pdf" target="_blank" rel="noopener noreferrer" style="text-decoration: none;"> pdf</a></li>
-          </ul>
-        
-     </section>
- <section class="card">
-    <div style="width:260px; height:150px; overflow:hidden; margin:0 auto;">
-<script type='text/javascript' id='mapmyvisitors' src='https://mapmyvisitors.com/map.js?cl=ffffff&w=300&t=n&d=cCV4hi9KZs13Qp7xoWBVOgQuaBIbp-B34eK1ZIMwVqQ&co=2d78ad&cmo=3acc3a&cmn=ff5353&ct=ffffff'></script>
-    </div>
-  </section>  
-     
+      <section class="card">
+        <h2 data-i18n="patent.title">Patent</h2>
+        <ul>
+          <li>(US) Thermal Diode and Thermal Switch Bi-Directional Heat Transfer in Building Envelopes, 2025 <a href="https://patents.google.com/patent/US20240281010A1/en" target="_blank" rel="noopener noreferrer">link</a></li>
+          <li>(CN) Prefabricated Bay Window, 2019 <a href="files/p1.pdf" target="_blank" rel="noopener noreferrer">pdf</a></li>
+          <li>(CN) A kind of Bi-directional Sliding Seismic Isolation Devices, 2017 <a href="files/p2.pdf" target="_blank" rel="noopener noreferrer">pdf</a></li>
+        </ul>
+      </section>
+
+      <section class="card">
+        <div style="width:260px; height:150px; overflow:hidden; margin:0 auto;">
+          <script type="text/javascript" id="mapmyvisitors" src="https://mapmyvisitors.com/map.js?cl=ffffff&amp;w=300&amp;t=n&amp;d=cCV4hi9KZs13Qp7xoWBVOgQuaBIbp-B34eK1ZIMwVqQ&amp;co=2d78ad&amp;cmo=3acc3a&amp;cmn=ff5353&amp;ct=ffffff"></script>
+        </div>
+      </section>
     </main>
   </div>
 
-
-
-<footer>    © 2025 Zhiying Xiao · 
-  <span class="small">NLR · Building Technologies & Science</span>
-
-</footer>
+  <footer>© 2026 Zhiying Xiao · <span class="small" data-i18n="footer.org">COGO LowCarbon Technology · R&amp;D Center</span></footer>
 </body>
 </html>
